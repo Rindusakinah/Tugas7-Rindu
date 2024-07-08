@@ -1,8 +1,8 @@
 <!-- src/components/TodoForm.vue -->
 <template>
   <div class="todo-form">
-    <input v-model="newTodo" @keyup.enter="addTodo" placeholder="Tambahkan List" />
-    <button class="add-button" @click="addTodo">Add</button>
+    <input v-model="newTodo" @keyup.enter="addTodo" placeholder="Tambahkan List Baru" />
+    <button class="add-button" @click="addTodo">Tambah</button>
   </div>
 </template>
 
@@ -40,7 +40,7 @@ export default {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  background: #ffffff;
+  background: #f5f5f5;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -52,8 +52,8 @@ export default {
 }
 
 .todo-form input {
-  padding: 12px 15px;
-  font-size: 1rem;
+  padding: 14px 18px;
+  font-size: 1.1rem;
   border: 2px solid #ddd;
   border-radius: 8px;
   flex-grow: 1;
@@ -67,8 +67,8 @@ export default {
 }
 
 .add-button {
-  padding: 12px 20px;
-  font-size: 1rem;
+  padding: 14px 24px;
+  font-size: 1.1rem;
   background: #4CAF50;
   color: white;
   border: none;

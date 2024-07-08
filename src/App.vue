@@ -26,78 +26,80 @@ export default {
 </script>
 
 <style scoped>
-/* Container styling */
+
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background: #f5f5f5;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
+  background: linear-gradient(to bottom right, #2e3192, #1bffff); /* Example gradient */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
 
 .container:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
 }
 
-/* Header styling */
+
 .header {
-  background-color: #4CAF50;
+  background-color: #28b487; 
   padding: 20px;
-  border-radius: 12px 12px 0 0;
+  border-radius: 16px 16px 0 0;
 }
 
 .header h1 {
   color: #fff;
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-/* Main content styling */
+
 main {
   padding: 20px;
 }
 
-/* Form and list styling */
+
 form, ul {
   background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
-/* Input and button styling */
+
 input[type="text"] {
   width: calc(100% - 40px);
-  padding: 10px;
+  padding: 12px;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
   margin-right: 10px;
+  font-size: 1rem;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
-  background-color: #4CAF50;
+  background-color: #28b487; 
   color: #fff;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #24a77e; /* Example color */
 }
 
-/* List item styling */
+
 li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -105,7 +107,7 @@ li:last-child {
   border-bottom: none;
 }
 
-/* List item text styling */
+
 li span {
   flex-grow: 1;
   text-align: left;
@@ -114,6 +116,7 @@ li span {
 li button {
   background-color: #ff4d4d;
   margin-left: 10px;
+  border-radius: 8px;
 }
 
 li button:hover {
